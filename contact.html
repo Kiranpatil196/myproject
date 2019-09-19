@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Contact form</title>
+<link rel="stylesheet" href="style1.css"/>
+<script type="text/javascript" src="contactval.js">	
+</script>
+</head>
+<body bgcolor='#FFFFCC'>
+ <h3><p style="color:#FFFFFF; background:#0000FF" align="right"> Ph: (08338) 221391 , 9964639584 &nbsp;&nbsp;&nbsp;&nbsp; Email: principal@vsmit.ac.in &nbsp;</p></h3>
+    <img src='images/symbol.png' width="122" height="118.703" align='left'/> 
+	<img src="images/symbol1.png" width="122" height="118.703" align="right"/>
+    <h3 align="center">VIDYA SAMVARDHAK MANDAL'S</h3>
+	<h1 align="center">SOMASHEKHAR R.KOTHIWALE INSTITUTE OF TECHNOLOGY, NIPANI</h1>
+	<p align="center">(APPROVED BY AICTE, NEW DELHI, AFFILIATED TO VTU BELGAUM & RECOGNIZED BY GOVT. OF KARNATAKA)</p> 
+	<hr/>
+	<div class="first">
+	<h2><a href="collage.html">HOME</a> &nbsp;&nbsp;
+	<a href="contact.html">CONTACT US</a>&nbsp;&nbsp;
+	<a href="reg.html">REGISTER</a>&nbsp;&nbsp;
+	<a href="login.html">LOGIN</a> 
+	</h2>
+	</div>
+	
+<h1 align="center">Student details</h1> 
+<table border="2px" cellpadding="0px" cellspacing="1px" align="center" bgcolor="#66FF66" lass="table1">
+	<tr> 	 
+	<td><table border="1px" cellpadding="4px" cellspacing="10px" bgcolor='#99FFCC' class="table1">
+	      <form name="Contact" action="collage.html" method="post" onsubmit="return validate_form();">
+		       <tr>
+	             <td>Enter Name:</td> 		   
+			     <td><input type="text" name="Enter Nmae:" placeholder="Name"/ id="name"></td>
+			   </tr>
+			   <tr>
+	             <td>Enter Email:</td> 		   
+			     <td><input type="text" name="Enter Email:" placeholder="Email"/ id="email"></td>
+			   </tr>
+			    <tr>
+	             <td>Enter Password:</td> 		   
+			     <td><input type="password" name='Password' placeholder="Password"/ id="password"></td>
+			   </tr>
+			   <tr>
+	             <td>Enter Phone Number:</td> 		   
+			     <td><input type="text" name="Enter Phone:" placeholder="Phone_no"/ id="phone"></td>
+			   </tr>
+			   <tr>
+                  <td>Gender:</td>		   
+			      <td id="gender"><input type="radio" name="gender" >Male</input>&nbsp;&nbsp;<input type="radio" name="gender">Female</input></td>
+			   </tr>
+			   <tr>
+			      <td>Qualification:</td>
+			      <td id="quali"><input type="checkbox">SSLC</input><br /><input type="checkbox">PUC</input><br /><input type="checkbox">ITI</input><br /><input type="checkbox">Deploma</input></td>
+			   </tr>
+			   <tr>
+			      <td colspan="2">Branch:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			        <select name="select" id="branch">
+                      <option>Select Branch</option>
+                      <option>Computer science and engg</option>
+                      <option>Mechanical engg</option>
+                      <option>Electronics and communication engg</option>
+                      <option>Civil engg</option>
+                    </select></td>
+		    </tr>
+				  <tr>
+				    <td>Enter Message:</td>
+					<td><textarea rows="10" cols="21.5" placeholder="Enter message" id="message"></textarea></td>
+			      </tr>
+				  <tr>
+			        <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			          <input name="submit" type="submit" class="btn1" value="Submit"/>
+			          <input name="reset" type="reset" class="btn2" value="Clear"/></td>
+				</tr>
+		</form>					 
+	</table></td>
+	</tr>
+</table>
+</body>
+</html>
