@@ -86,15 +86,15 @@ public class TaxiBook {
 		}
 
 		while (true) {
-			System.out.println("========================================================================");
+			System.out.println("**********************************************************************");
 			System.out.println("TAXI BOOKING");
 			System.out.println("1.Booking");
 			System.out.println("2.Display");
 			System.out.println("3.Exit");
-			System.out.println("========================================================================");
+			System.out.println("**********************************************************************");
 			System.out.print("Enter your choice: ");
 			int ch = scan.nextInt();
-			System.out.println("========================================================================");
+			System.out.println("**********************************************************************");
 
 			switch (ch) {
 			case 1:
